@@ -1044,7 +1044,7 @@
             // Функция для создания платежа
             async function createPayment(username, starsAmount) {
                 try {
-                    const response = await fetch('https://memepay.sbs/create-payment', {
+                    const response = await fetch('https://memepay.sbs:8000/create-payment', {
                         method: 'POST',
                         headers: {
                             'Content-Type': 'application/json',
